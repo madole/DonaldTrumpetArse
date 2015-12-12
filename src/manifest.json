@@ -1,8 +1,8 @@
 {
 "manifest_version": 2,
     "name": "Donald Trumpet-arse",
-    "description": "replace Donald Trump with Donald Trumpet-arse Society",
-    "version": "0.1",
+    "description": "replace Donald Trump with Donald Trumpet-arse",
+    "version": "0.4",
     "content_scripts": [
         {
             "matches": [
@@ -12,7 +12,7 @@
             "js": [
                 "content.js"
             ],
-            "run_at": "document_end"
+            "run_at": "document_start"
         }
     ]
 }
